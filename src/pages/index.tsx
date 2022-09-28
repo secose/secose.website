@@ -24,19 +24,9 @@ const codeStyles = {
   fontSize: "1.25rem",
   borderRadius: 4,
 }
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
+
 const doclistStyles = {
   paddingLeft: 0,
-}
-
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
 }
 
 const linkStyle = {
@@ -54,40 +44,19 @@ const docLinkStyle = {
   marginRight: 12,
 }
 
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
-}
-
 const docLinks = [
   {
     text: "twitter",
     url: "https://twitter.com/SecoseCfd",
     color: "#8954A8",
   },
+  {
+    text: "linkedin",
+    url: "https://www.linkedin.com/in/secose-12b7a8251",
+    color: "#8954A8",
+  },
 
 ]
-
-
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative" as "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
-}
 
 
 
