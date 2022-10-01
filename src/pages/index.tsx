@@ -1,5 +1,8 @@
 import * as React from "react"
+import GridComponent from "../components/GridComponent";
 import type { HeadFC } from "gatsby"
+import styled from 'styled-components';
+
 
 const pageStyles = {
   color: "#232129",
@@ -21,7 +24,7 @@ const codeStyles = {
   color: "#8A6534",
   padding: 1,
   backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
+  fontSize: "1rem",
   borderRadius: 4,
 }
 
@@ -52,11 +55,13 @@ const docLinks = [
   },
   {
     text: "linkedin",
-    url: "https://www.linkedin.com/in/secose-12b7a8251",
+    url: "https://www.linkedin.com/company/secosecrowdfunding/",
     color: "#8954A8",
   },
 
 ]
+
+
 
 
 
@@ -83,6 +88,7 @@ const IndexPage = () => {
           </li>
         ))}
       </ul>
+
     </main >
   )
 }
